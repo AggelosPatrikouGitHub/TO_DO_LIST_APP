@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do List Application</h1>
+        <p>Organize your tasks effortlessly</p>
+    </header>
+    <main>
+        <section class="todo-app">
+            <div class="task-input">
+                <input type="text" id="task-input" placeholder="Enter a new task...">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+            <div class="task-categories">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="Work">Work</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Shopping">Shopping</option>
+                </select>
+            </div>
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 To-Do List Application</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
